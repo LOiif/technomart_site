@@ -7,7 +7,15 @@
     <meta name="keywords" content="shop магазин техники">
 
     <link href="../css/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+          integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+          crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
 
 </head>
@@ -17,54 +25,106 @@
 
     <div class="header-content">
         <div class="top-of-header">
-            <p>
-                <a class="logo" href="#">
 
+            <div class="top-of-header-content">
+                <div class="logo-container">
+                    <a class="logo" href="#">Техномарт</a>
+                </div>
+
+                <form class="form-search">
+                    <label for="search" class="visually-hidden">Поиск по сайту</label>
+                    <input type="text" name="search" id="search" placeholder="Поиск:"/>
+                    <!--
+                    <button type="submit" class="search-button">
+                       !-->
+                    <div class="search-button">
+                        <svg id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                             viewBox="0 0 512 512" width="17px" height="17px" fill="#ffffff" opacity="0.3">
+
+                            <path d="M225.474,0C101.151,0,0,101.151,0,225.474c0,124.33,101.151,225.474,225.474,225.474
+			c124.33,0,225.474-101.144,225.474-225.474C450.948,101.151,349.804,0,225.474,0z M225.474,409.323
+			c-101.373,0-183.848-82.475-183.848-183.848S124.101,41.626,225.474,41.626s183.848,82.475,183.848,183.848
+			S326.847,409.323,225.474,409.323z"/>
+
+                            <path d="M505.902,476.472L386.574,357.144c-8.131-8.131-21.299-8.131-29.43,0c-8.131,8.124-8.131,21.306,0,29.43l119.328,119.328
+			c4.065,4.065,9.387,6.098,14.715,6.098c5.321,0,10.649-2.033,14.715-6.098C514.033,497.778,514.033,484.596,505.902,476.472z"/>
+                        </svg>
+                    </div>
+                    <!--
+                    </button>
+                    !-->
+                </form>
+
+
+                <a class="bookmarks" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" opacity="0.3" width="14" height="16" viewBox="0 0 14 16">
+                        <path fill="#ffffff" d="M14 15c0 .55-.368.741-.818.426l-5.363-3.765c-.45-.315-1.187-.315-1.637
+                     0L.818 15.426C.368 15.741 0 15.55 0 15V1c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v14z"/>
+                    </svg>
+                    Закладки: 0
                 </a>
-            </p>
 
-            <form class="form-search">
-                <label for="search" class="visually-hidden">Поиск по сайту</label>
-                <input type="text" name="search" id="search" placeholder="Поиск:">
-                <button type="submit" class="search-button"></button>
-            </form>
 
-            <ul>
-                <li>Закладки</li>
-                <li>Корзина</li>
-            </ul>
+                <a class="basket" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" opacity="0.3" viewBox="0 0 15 15">
+                        <circle fill="#ffffff" cx="4.5" cy="13.5" r="1.5"/>
+                        <circle fill="#ffffff" cx="12.5" cy="13.5" r="1.5"/>
+                        <path fill="#ffffff" d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z"/>
+                    </svg>
 
-            <button>Оформить заказ</button>
-        </div>
+                    Корзина: 0
+                </a>
 
-        <div class="middle-of-header">
+                <a class="button place-order" href="#">Оформить заказ</a>
 
-            <p>
-                Интернет-магазин<br>
-                строительных материалов<br>
-                и инструментов для ремонта
-            </p>
-
-            <div>
-                <p>+7 (812) 555-05-55</p>
-                <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
             </div>
-
-            <button type="button" class="button">Войти</button>
-            <button type="button" class="button">Регистрация</button>
         </div>
-        <nav class="nav">
-            <ul>
-                <li><a href="#"></a>Главная</li>
-                <li><a href="#"></a>Компания</li>
-                <li><a href="#"></a>Каталог</li>
-                <li><a href="#"></a>Новости</li>
-                <li><a href="#"></a>Спецпредложения</li>
-                <li><a href="#"></a>Доставка</li>
-                <li><a href="#"></a>Контакты</li>
 
-            </ul>
-        </nav>
+        <div class="middle-and-bottom-of-header">
+
+            <div class="middle-of-header">
+
+                <p class="info">
+                    Интернет-магазин<br>
+                    строительных материалов<br>
+                    и инструментов для ремонта
+                </p>
+
+                <div class="phone-and-adress">
+                    <div class="phone-decor">
+                        <p>+7 (812) 555-05-55</p>
+                    </div>
+                    <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+                </div>
+
+                <div class="user-nav">
+                    <a class="login-button button">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" opacity="0.3" width="20" height="17" viewBox="0 0 20 17">
+                            <path d="M14.875 8.5L6 0v6H0v5h6v6z"/>
+                            <path d="M16.986 15.01h-5.027V17h5.027c2.178 0 3.004-1.81 3.029-3.026V3.028C19.99 1.811 19.164 0 16.986 0h-5.027v1.99h5.027c.839 0 .992.681 1.01 1.057v10.904c-.017.376-.171 1.059-1.01 1.059z"/>
+                        </svg>
+
+
+                        Войти
+
+                    </a>
+                    <a class="registration-button button">Регистрация</a>
+                </div>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a class="nav-item" href="#">Главная</a></li>
+                    <li><a class="nav-item" href="#">Компания</a></li>
+                    <li><a class="nav-item" href="#">Каталог</a></li>
+                    <li><a class="nav-item" href="#">Новости</a></li>
+                    <li><a class="nav-item" href="#">Спецпредложения</a></li>
+                    <li><a class="nav-item" href="#">Доставка</a></li>
+                    <li><a class="nav-item" href="#">Контакты</a></li>
+
+                </ul>
+            </nav>
+        </div>
     </div>
 </header>
 
@@ -364,17 +424,17 @@
             </p>
 
             <div class="social-networks">
-            <ul>
-                <li class="vk"></li>
-                <li class="facebook"></li>
-                <li class="instagram"></li>
+                <ul>
+                    <li class="vk"></li>
+                    <li class="facebook"></li>
+                    <li class="instagram"></li>
 
-            </ul>
+                </ul>
             </div>
 
             <div>
-            <p>Обратная связь:</p>
-            <a href="#">mail@htmlacademy.ru</a>
+                <p>Обратная связь:</p>
+                <a href="#">mail@htmlacademy.ru</a>
             </div>
 
             <div>
