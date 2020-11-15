@@ -1019,3 +1019,118 @@ a {
     color: #32425c;
     box-shadow: 0 1px 0 #ffffff, inset 0 1px 0 #ffffff;
 }
+
+.about-section{
+    display: flex;
+    text-align: left;
+
+    width: 940px;
+
+    margin:auto;
+    margin-top: 55px;
+
+    color: black;
+
+}
+.about{
+    margin-right: 120px;
+    width: 100%;
+}
+
+.about-section p{
+    margin: 0;
+    margin-bottom: 25px;
+    font-size: 13px;
+}
+
+.contacts p{
+    margin-bottom: 32px;
+}
+
+.about p:last-of-type{
+    margin-bottom: 17px;
+}
+
+
+.about-section h3{
+
+    font-size: 30px;
+    font-family: Cuprum, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+
+    margin-bottom: 28px;
+}
+
+.about-list{
+
+    font-family: Cuprum, sans-serif;
+    font-size: 18px;
+    margin: 0 0 33px;
+}
+
+.about-list li{
+    position: relative;
+    margin-bottom: 17px;
+    padding-left: 36px;
+
+}
+
+.about-list li::before{
+    content: "";
+
+    position: absolute;
+
+    top: 45%;
+    left: 0;
+
+    width: 25px;
+    height: 2px;
+
+    background-color: #ee3643;
+}
+
+.about-section .button{
+    display: inline-block;
+    font-size: 14px;
+    font-family: Cuprum, sans-serif;
+    text-transform: uppercase;
+
+    border: solid 1px inherit;
+    border-radius: 3px;
+
+}
+
+.about .button{
+
+    padding-left: 41px;
+    padding-right: 40px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+
+}
+
+.contacts .button{
+    display: block;
+
+    padding-top: 8px;
+    padding-bottom: 6px;
+    padding-right: 59px;
+    padding-left: 63px;
+
+    text-align: center;
+}
+
+.contacts img{
+    width: 300px;
+    height: 158px;
+}
+
+.contacts p:last-of-type{
+    margin-bottom: 32px;
+}
+
+
+
+
+
