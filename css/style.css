@@ -1028,8 +1028,11 @@ a {
 
     margin:auto;
     margin-top: 55px;
+    margin-bottom: 83px;
 
     color: black;
+
+
 
 }
 .about{
@@ -1131,6 +1134,162 @@ a {
 }
 
 
+.footer{
+    text-align: left;
+}
+
+.top-of-footer{
+    background-color: #32425c;
+    color: white;
+
+    font-size: 18px;
+
+    padding-bottom: 21px;
+}
+
+.top-of-footer-content{
+    width: 940px;
+    margin: auto;
+    text-align: left;
+}
+
+.top-of-footer-content div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.top-of-footer-content div:last-child{
+    padding-left: 3px;
+}
+
+.top-of-footer-content .button{
+    display: block;
+
+    padding: 22px 41px;
+
+    font-size: 30px;
+    text-transform: uppercase;
+
+    background-color: #ee3643;
+
+    box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.footer-list{
+    display: flex;
+    margin-bottom: 6px;
+}
+
+.footer-list li:not(:last-child){
+    margin-right: 59px;
+}
+
+.footer-list li{
+    display: flex;
+    align-items: flex-end;
+}
 
 
+.footer-list.footer-list-yellow{
+    align-items: flex-start;
 
+    color: #ffd180;
+
+}
+
+.footer-list a:hover{
+    text-decoration: underline;
+
+}
+.footer-list a:active{
+    transition: none;
+    text-decoration: none;
+    opacity: 0.5;
+
+}
+
+.bottom-of-footer-container{
+    background-color: #293449;
+    color: white;
+
+    font-size: 16px;
+    line-height: 18px;
+
+    padding-top: 19px;
+    padding-bottom: 15px;
+
+}
+
+.bottom-of-footer-content{
+    display: flex;
+
+    align-items: center;
+
+    width: 940px;
+    margin: auto;
+}
+
+.social-networks{
+    display: flex;
+    margin-right: 115px;
+}
+
+.social-networks a{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 40px;
+    height: 40px;
+
+    margin-right: 5px;
+
+    background-color: #212a3a;
+    border-radius: 50%;
+
+    transition: .3s ease-in-out;
+}
+
+.social-networks a:hover{
+
+    background-color: #ee3643;
+}
+
+.copyright{
+    margin-right: 165px;
+}
+
+.bottom-of-footer-content p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.mail-for-feedback{
+
+    margin-right: 52px;
+}
+.mail-for-feedback a{
+    color: #ffd180;
+}
+.dev-by a{
+    color: #ffd180;
+}
+.mail-for-feedback a:hover{
+    text-decoration: underline;
+}
+.dev-by a:hover{
+    text-decoration: underline;
+}
+.mail-for-feedback a:active{
+    transition: none;
+    text-decoration: none;
+    color: #ee3643;
+}
+
+.dev-by a:active{
+    transition: none;
+    text-decoration: none;
+    color: #ee3643;
+}
